@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom, rgb(179, 56, 123),rgb(48, 198, 206));
+    color : white;
+}
+
+.container{
+    border: 0.5px solid white;
+    padding: 28px 32px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+} 
+
+.passBox{
+    background-color:white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-block:8px;
+}
+
+.row{
+    display:flex;
+    margin-block: 8px;
+}
+
+.row p,.row label,.row label{
+    flex-basis:100%;
+    font-size:18px;
+
+
+}
+
+.genbtn{
+    border: none;
+    outline: none;
+    background-color:rgb(66, 121, 197);
+    padding:12px 24px;
+    color: white;
+    font-size:18px;
+    margin-block:8px;
+    font-weight:700;
+    cursor:pointer;
+    border-radius: 4px;
+}
+
+.genbtn:hover{
+    background-color:blue;
+}
